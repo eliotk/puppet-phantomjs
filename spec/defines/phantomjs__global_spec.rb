@@ -2,6 +2,7 @@ require "spec_helper"
 
 describe "phantomjs::global" do
   let(:facts) { default_test_facts }
+  let(:title) { "/path/to/wherever" }
   let(:params) do
     {
       :version => "1.9.0"
